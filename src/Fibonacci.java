@@ -1,5 +1,4 @@
-package com.learn;
-
+package src;
 
 import java.util.HashMap;
 
@@ -215,16 +214,16 @@ public class Fibonacci {
 
     public static void main(String[] args) {
         long begin = System.currentTimeMillis(); // 这段代码放在程序执行前
-//        long result=new Fibonacci().fibonacci_1(50); //59103毫秒
-//        long result=new Fibonacci().fibonacci_2(50); //16毫秒
-//        long result=new Fibonacci().fibonacci_3(50); //1毫秒
-//        long result=new Fibonacci().fibonacci_4(50,1,1); //0毫秒
-//        long result=new Fibonacci().fibonacci_5(50); //2毫秒
-//        long result=new Fibonacci().fibonacci_6(50); //1毫秒  12586269025
+//        long result=new src.Fibonacci().fibonacci_1(50); //59103毫秒
+//        long result=new src.Fibonacci().fibonacci_2(50); //16毫秒
+//        long result=new src.Fibonacci().fibonacci_3(50); //1毫秒
+//        long result=new src.Fibonacci().fibonacci_4(50,1,1); //0毫秒
+//        long result=new src.Fibonacci().fibonacci_5(50); //2毫秒
+//        long result=new src.Fibonacci().fibonacci_6(50); //1毫秒  12586269025
         long result=new Fibonacci().fibonacci_7(49); //0毫秒
-//        long result=new Fibonacci().fibonacci_8(50); //0毫秒
-//        long result=new Fibonacci().fibonacci_9(50); //0毫秒
-//        long result=new Fibonacci().fibonacci_10(50); //0毫秒
+//        long result=new src.Fibonacci().fibonacci_8(50); //0毫秒
+//        long result=new src.Fibonacci().fibonacci_9(50); //0毫秒
+//        long result=new src.Fibonacci().fibonacci_10(50); //0毫秒
         System.out.println(result);
         long end = System.currentTimeMillis() - begin; // 这段代码放在程序执行后
         System.out.println("耗时：" + end + "毫秒");
